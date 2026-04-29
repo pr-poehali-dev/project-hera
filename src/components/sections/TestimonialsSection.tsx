@@ -3,58 +3,58 @@ import { TestimonialsColumn } from "@/components/ui/testimonials-column"
 
 const testimonials = [
   {
-    text: "Velocite сократил наш пайплайн деплоя с 4 часов до 12 минут. Автоматизация кардинально изменила наш CI/CD процесс.",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
-    name: "Анна Смирнова",
-    role: "CTO в TechFlow Solutions",
-  },
-  {
-    text: "Мы изучили 15 платформ, прежде чем выбрать Velocite. ROI стал очевиден уже в первый месяц использования.",
+    text: "Начинал с нуля после техникума. За 3 года вырос до Senior-инженера. Рынок реально голодает по специалистам — работу нашёл за неделю.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-    name: "Максим Волков",
-    role: "VP Engineering в Quantum Dynamics",
+    name: "Алексей Морозов",
+    role: "Senior-инженер АСУ ТП · Газпром",
   },
   {
-    text: "Наша команда выпустила в 3 раза больше фич за квартал. Инструменты совместной работы сделали удаленку бесшовной.",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
-    name: "Елена Родригес",
-    role: "Head of Product в Alpine Ventures",
+    text: "Перешла из электрика в инженеры по автоматизации. Зарплата выросла в 2,5 раза. Советую всем, кто хочет развиваться в промышленности.",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
+    name: "Ирина Козлова",
+    role: "Инженер-технолог · СИБУР",
   },
   {
-    text: "Онбординг прошел невероятно гладко. Вся команда разработки стала продуктивной уже на первой неделе.",
+    text: "Программирование роботов KUKA — это то, о чём я мечтал. Сейчас запускаем новый завод, и я в главной команде автоматизаторов.",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-    name: "Дмитрий Парк",
-    role: "IT-директор в Stellar Analytics",
+    name: "Дмитрий Фёдоров",
+    role: "Robotics Engineer · Hyundai Mobis",
   },
   {
-    text: "Поддержка клиентов на высоте. Помогли мигрировать всю инфраструктуру с нулевым даунтаймом.",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
-    name: "Анна Ковальски",
-    role: "Операционный директор в Nova Industries",
-  },
-  {
-    text: "API-интеграции сэкономили сотни часов разработки. Все работает из коробки.",
+    text: "Специальность позволяет работать в любой точке России. Переехал в Сибирь — и зарплата с вахтовыми стала 250 тысяч в месяц.",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
-    name: "Алексей Вилсон",
-    role: "CEO в Meridian Tech",
+    name: "Сергей Антонов",
+    role: "Инженер АСУ · Норникель",
   },
   {
-    text: "Velocite изменил наш подход к релизам. Откаты, занимавшие часы, теперь происходят за секунды.",
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
-    name: "Лиза Томпсон",
-    role: "DevOps Lead в Cascade Systems",
-  },
-  {
-    text: "Аналитический дашборд дает инсайты, которых у нас раньше не было. Data-driven решения стали нормой.",
+    text: "Закончил МГТУ, сразу пошёл в проектный институт. Через год уже веду самостоятельные проекты. Перспективы огромные.",
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face",
-    name: "Михаил Чен",
-    role: "Product Manager в Vertex Labs",
+    name: "Никита Воробьёв",
+    role: "Проектировщик АСУ ТП · ЭТМ",
   },
   {
-    text: "Частота деплоев выросла в 5 раз без дополнительных затрат на инфраструктуру. Впечатляющая платформа.",
+    text: "Открыл собственное ИП по интеграции систем автоматизации. Клиентов больше, чем успеваю брать. Этот рынок только растёт.",
+    image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&h=150&fit=crop&crop=face",
+    name: "Андрей Смирнов",
+    role: "Фриланс-интегратор · ИП",
+  },
+  {
+    text: "После курсов по Siemens TIA Portal получил работу через 2 месяца. Работодатели ценят практические навыки больше диплома.",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    name: "Мария Николаева",
+    role: "Инженер КИПиА · Еврохим",
+  },
+  {
+    text: "Работаю удалённо как консультант по SCADA-системам. Несколько клиентов одновременно, гибкий график — мечта технаря.",
+    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
+    name: "Павел Кириллов",
+    role: "Консультант SCADA · Freelance",
+  },
+  {
+    text: "Вырос от монтажника до руководителя отдела автоматизации за 6 лет. Этот путь реален для любого, кто готов учиться.",
     image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
-    name: "Рахиль Ким",
-    role: "Engineering Manager в Prism Digital",
+    name: "Наталья Захарова",
+    role: "Начальник отдела АСУ · РусАгро",
   },
 ]
 
@@ -62,7 +62,7 @@ const firstColumn = testimonials.slice(0, 3)
 const secondColumn = testimonials.slice(3, 6)
 const thirdColumn = testimonials.slice(6, 9)
 
-const logos = ["TechFlow", "Quantum Dynamics", "Alpine Ventures", "Stellar Analytics", "Nova Industries", "Meridian Tech"]
+const companies = ["Газпром", "Роснефть", "СИБУР", "Норникель", "Росатом", "РусАгро", "Лукойл", "ФосАгро"]
 
 export function TestimonialsSection() {
   return (
@@ -75,13 +75,13 @@ export function TestimonialsSection() {
           viewport={{ once: true }}
           className="flex flex-col items-center justify-center max-w-xl mx-auto mb-12"
         >
-          <div className="border border-zinc-800 py-1.5 px-4 rounded-full text-sm text-zinc-400">Отзывы</div>
+          <div className="border border-zinc-800 py-1.5 px-4 rounded-full text-sm text-zinc-400">Истории карьеры</div>
 
           <h2 className="font-display text-4xl md:text-5xl font-bold text-zinc-100 mt-6 text-center tracking-tight">
-            Что говорят пользователи
+            Говорят специалисты
           </h2>
           <p className="text-center mt-4 text-zinc-500 text-lg text-balance">
-            Узнайте мнение наших клиентов о платформе.
+            Реальный опыт инженеров по автоматизации из разных отраслей.
           </p>
         </motion.div>
 
@@ -92,28 +92,19 @@ export function TestimonialsSection() {
         </div>
 
         <div className="mt-16 pt-16 border-t border-zinc-800/50">
-          <p className="text-center text-sm text-zinc-500 mb-8">Нам доверяют лидеры индустрии</p>
+          <p className="text-center text-sm text-zinc-500 mb-8">Специалисты работают в ведущих компаниях России</p>
           <div className="relative overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
             <motion.div
               className="flex gap-12 md:gap-16"
-              animate={{
-                x: ["0%", "-50%"],
-              }}
-              transition={{
-                x: {
-                  duration: 20,
-                  repeat: Infinity,
-                  ease: "linear",
-                },
-              }}
+              animate={{ x: ["0%", "-50%"] }}
+              transition={{ x: { duration: 20, repeat: Infinity, ease: "linear" } }}
             >
-              {/* Duplicate logos for seamless loop */}
-              {[...logos, ...logos].map((logo, index) => (
+              {[...companies, ...companies].map((company, index) => (
                 <span
-                  key={`${logo}-${index}`}
+                  key={`${company}-${index}`}
                   className="text-xl font-semibold text-zinc-700 whitespace-nowrap flex-shrink-0"
                 >
-                  {logo}
+                  {company}
                 </span>
               ))}
             </motion.div>
